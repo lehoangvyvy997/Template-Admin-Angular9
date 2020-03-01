@@ -17,7 +17,5 @@ export class LoginComponent implements OnInit {
 
     onLoggedin() {
         localStorage.setItem('isLoggedin', 'true');
-        // console.log();
-        // console.log();
     }
 }
